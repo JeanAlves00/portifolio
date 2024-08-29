@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilos do título */
+header h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos do container dos botões */
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Estilos dos botões */
+header button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo específico para o botão de alternância de tema */
+#theme-toggle {
+    background-color: #28a745;
+}
+
+#theme-toggle:hover {
+    background-color: #218838;
+}
