@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin Sans', sans-serif;
+    box-sizing: border-box;
+    color: #e8d18e;
+}
+
+body {
+    background-color: #11091a;
+    background-image: url(img/fundo.png);
+    padding-top: 100px;
+}
+
+/*Header*/
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+  
+      .logo {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: transform 0.3s ease-in-out;
+  
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+  
+      .menu-toggle {
+        display: none;
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: color 0.3s;
+  
+        &:hover {
+          color: #1abc9c;
+        }
+      }
+  
+      .cabecalho {
+        display: flex;
+        gap: 2rem;
+  
+        li {
+          list-style: none;
+  
+          a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            position: relative;
+            transition: color 0.3s ease-in-out;
+  
+            &:hover {
+              color: #1abc9c;
+            }
+  
+            &::after {
+              content: '';
+              position: absolute;
+              left: 0;
+              bottom: -5px;
+              width: 0%;
+              height: 2px;
+              background-color: #1abc9c;
+              transition: width 0.4s ease-in-out;
+            }
+  
+            &:hover::after {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  // Adiciona uma animação suave de rolagem ao clicar nos links de navegação
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .header nav {
+      flex-direction: column;
+      align-items: flex-start;
+  
+      .logo {
+        font-size: 1.8rem;
+      }
+  
+      .menu-toggle {
+        display: block; /* Exibe o botão do menu em telas pequenas */
+      }
+  
+      .cabecalho {
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        display: none; /* Oculta a lista de navegação por padrão */
+  
+        &.active {
+          display: flex; /* Exibe a lista de navegação quando ativa */
+        }
+  
+        li a {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header nav {
+      padding: 1rem;
+  
+      .logo {
+        font-size: 1.5rem;
+      }
+  
+      .cabecalho {
+        align-items: center;
+        li a {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
