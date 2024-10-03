@@ -5,90 +5,102 @@
     justify-content: center;
     align-items: center;
     min-height: 70vh;
-    padding: 2rem;
-    background: linear-gradient(#0e1c24, #0b151b), no-repeat center center;
-    background-size: contain;
-
+    padding: 3rem; 
+    background: linear-gradient($corDefundo1, $corDefundo2), no-repeat center center;
+    background-size: cover;
+  
     &__container {
-        text-align: left;
-        max-width: 700px;
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 2rem;
-        border-radius: 30px;
+      text-align: left;
+      max-width: 800px;
+      background-color: rgba(0, 0, 0, 0.6); // Um fundo um pouco mais escuro para destaque
+      padding: 2.5rem;
+      border-radius: 25px;
+  
+      h4 {
+        font-size: 1.4rem;
+        padding: auto;
+        font-weight: 300;
+        color: $corFonte1;
+      }
+  
+      h2 {
+        font-size: 2.4rem; 
+        margin-top: 0.5rem;
+        font-weight: 700;
+        color: $corFonte4;
+      }
 
-        h4 {
-            font-size: 1.2rem;
-            font-weight: 300;
-            color: #f19601;
-          }
+      #typewriter {
+        display: inline-block;
+        border-right: 2px solid #fff;
+        white-space: nowrap;
+        overflow: hidden;
+      }
       
-          h2 {
-            font-size: 2rem;
-            font-weight: 700;
-            color: #e0e0e0;
-          }
-      
-          h3 {
-            font-size: 1.8rem;
-            font-weight: 500;
-            color: #d0d0d0;
-          }
-      
-          p {
-            font-size: 1rem;
-            margin-bottom: 0.75rem;
-            color: #c0c0c0;
-      
-            &:last-child {
-                font-style: italic;
-            }
+  
+      h3 {
+        font-size: 1.8rem;
+        margin-top: 0.5rem;
+        font-weight: 500;
+        color: $corFonte1;
+      }
+  
+      p {
+        font-size: 1.2rem;
+        margin-top: 0.6rem;
+        color: $corFonte5;
+  
+        &:last-child {
+          font-style: italic;
         }
+      }
     }
-
+  
     &__image {
-        margin-left: 3rem;
-
-        img {
-            border-radius: 20%;
-            width: 250px;
-            height: 250px;
-            object-fit: cover;
-            border: 2px solid #fff;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-        }
+      margin-left: 4rem; // Um pouco mais de espaço para a imagem
+      img {
+        border-radius: 15%; // Bordas um pouco menos arredondadas
+        width: 300px; // Imagem maior para mais destaque
+        height: 300px;
+        object-fit: cover;
+        border: 3px solid #fff; // Borda mais grossa para melhor contraste
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); // Sombra mais intensa
+      }
     }
-}
-
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
     .hero {
-        flex-direction: column;
-        padding: 1rem;
-        background-size: cover;
-        
-        &__container {
-            padding: 1.5rem;
-            text-align: center;
-
-            h2 {
-                font-size: 1.5rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-          
-            h3 {
-                font-size: 1.2rem;
-            }
-          
-            p {
-                font-size: 0.85rem;
-            }
+      flex-direction: column;
+      padding: 1.5rem;
+      background-size: cover;
+  
+      &__container {
+        padding: 2rem; // Aumenta o padding para uma melhor adaptação
+        text-align: center;
+        max-width: 100%; // Expande para cobrir a largura total no mobile
+  
+        h2 {
+          font-size: 1.8rem; // Maior para manter o impacto
         }
-
-        &__image {
-            margin-left: 0;
-            margin-top: 2rem;
+  
+        h3 {
+          font-size: 1.4rem;
         }
+  
+        p {
+          font-size: 1rem;
+        }
+      }
+  
+      &__image {
+        margin-left: 0;
+        margin-top: 2rem;
+        img {
+          width: 280px; // Ajuste proporcional da imagem
+          height: 280px;
+        }
+      }
     }
-}
+  }
+  

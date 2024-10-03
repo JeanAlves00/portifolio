@@ -1,4 +1,4 @@
-7412
+7413
 58C:\Users\jean alves\Documents\GitHub\portifolio\src\images133723774233028452 1
 126C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\sharp\vendor\8.13.3\win32-x64\include\freetype2\freetype\ftbbox.h133117882010000000 0
 79C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\simple-get\LICENSE133724379029328899 0
@@ -56,7 +56,7 @@
 119C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\generator133724379041781979 1
 78C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\svgo\lib\style.js133724379036950555 0
 128C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\sharp\vendor\8.13.3\win32-x64\include\freetype2\freetype\fterrors.h133117882010000000 0
-52C:\Users\jean alves\Documents\GitHub\portifolio\dist133724510239753732 1
+52C:\Users\jean alves\Documents\GitHub\portifolio\dist133724526457380960 1
 111C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\caniuse-lite\data\features\intersectionobserver.js133724379047035211 0
 51C:\Users\jean alves\Documents\GitHub\portifolio\src133724378252689058 1
 75C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\mkdirp-classic133724379031138963 1
@@ -102,26 +102,26 @@
 145C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\pseudo\nth-last-child.js133724379041008261 0
 95C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\type-fest\source\set-required.d.ts133724379037753470 0
 87C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\core\lib\Parcel.js133724379041581240 0
-62C:\Users\jean alves\Documents\GitHub\portifolio\src\index.html133724390098204703 0
+62C:\Users\jean alves\Documents\GitHub\portifolio\src\index.html133724526226538003 0
 87C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\graph\src\index.js133724379035992171 0
 100C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\caniuse-lite\data\features\atob-btoa.js133724379038255313 0
 59C:\Users\jean alves\Documents\GitHub\portifolio\src\scripts133723774233038464 1
-60C:\Users\jean alves\Documents\GitHub\portifolio\dist\scripts133724510239491810 1
+60C:\Users\jean alves\Documents\GitHub\portifolio\dist\scripts133724526457380960 1
 125C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\sharp\vendor\8.13.3\win32-x64\include\librsvg-2.0\librsvg\rsvg.h133117882010000000 0
 118C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\csso\node_modules\css-tree\lib\syntax\config\generator.js133724379043081799 0
 128C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeTitle.js133724379039500940 0
-58C:\Users\jean alves\Documents\GitHub\portifolio\src\styles133724509160931837 1
+58C:\Users\jean alves\Documents\GitHub\portifolio\src\styles133724524894372730 1
 130C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeDoctype.js133724379038712065 0
 83C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\parent-module\index.js133724379029991893 0
 99C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\term-size\vendor\windows\term-size.exe133724379032500292 0
 98C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\csso\lib\restructure\prepare\index.js133724379040520544 0
 69C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\domutils133724379035845877 1
 96C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\msgpackr\dist\index-no-eval.cjs.map133724379037597991 0
-68C:\Users\jean alves\Documents\GitHub\portifolio\src\styles\main.scss133724510235299227 0
+68C:\Users\jean alves\Documents\GitHub\portifolio\src\styles\main.scss133724525782264165 0
 124C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\sharp\vendor\8.13.3\win32-x64\include\libxml2\libxml\entities.h133117882010000000 0
 133C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Brackets.js133724379034332403 0
 83C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@swc\counter\README.md133724379030766518 0
-73C:\Users\jean alves\Documents\GitHub\portifolio\src\styles\variaveis.scss133724510154119378 0
+73C:\Users\jean alves\Documents\GitHub\portifolio\src\styles\variaveis.scss133724515668780064 0
 125C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\csso\node_modules\css-tree\cjs\syntax\node\AttributeSelector.cjs133724379033895771 0
 134C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\gio\gpowerprofilemonitor.h133117882010000000 0
 109C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\css-select\lib\esm\pseudo-selectors\index.js.map133724379038973211 0
@@ -143,7 +143,7 @@
 89C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\posthtml-parser\package.json133724379032008093 0
 95C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\svgo\plugins\removeStyleElement.js133724379040660887 0
 65C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@swc133724379071420567 1
-69C:\Users\jean alves\Documents\GitHub\portifolio\src\styles\_hero.scss133724510113412048 0
+69C:\Users\jean alves\Documents\GitHub\portifolio\src\styles\_hero.scss133724521540725553 0
 82C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\tar-stream\extract.js133724379029951880 0
 105C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\utility-types\dist\aliases-and-guards.js.map133724379033263338 0
 77C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\type-fest\source133724379038250221 1
@@ -151,7 +151,7 @@
 128C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\gio\gdbusmenumodel.h133117882010000000 0
 98C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\core\test\PublicAsset.test.js133724379042108385 0
 123C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@swc\helpers\_\_class_static_private_field_update\package.json133724379039475643 0
-67C:\Users\jean alves\Documents\GitHub\portifolio\src\scripts\main.js133723774233038464 0
+67C:\Users\jean alves\Documents\GitHub\portifolio\src\scripts\main.js133724526475943262 0
 67C:\Users\jean alves\Documents\GitHub\portifolio\src\images\sala.jpg133723774233028452 0
 99C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\cosmiconfig\dist\ExplorerSync.d.ts.map133724379036950555 0
 88C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\events\src\index.js133724379033464240 0
@@ -231,7 +231,7 @@
 67C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\dotenv133724379032289495 1
 100C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\css-tree\lib\syntax\config\generator.js133724379043202395 0
 70C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@trysound133724379015637634 1
-72C:\Users\jean alves\Documents\GitHub\portifolio\dist\styles\main.css.map133724510239572479 0
+72C:\Users\jean alves\Documents\GitHub\portifolio\dist\styles\main.css.map133724526342727654 0
 95C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\source-map-js\lib\source-node.d.ts133724379035946925 0
 94C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\domelementtype\lib\index.d.ts.map133724379033213043 0
 131C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\gio\gdbusnamewatching.h133117882010000000 0
@@ -1268,7 +1268,7 @@
 92C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\caniuse-lite\data\regions\PY.js133724379048948607 0
 77C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\sass\types\value133724379041581240 1
 72C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\timsort\src133724379033403720 1
-74C:\Users\jean alves\Documents\GitHub\portifolio\dist\index.f75de5e1.js.map133724510239471530 0
+74C:\Users\jean alves\Documents\GitHub\portifolio\dist\index.f75de5e1.js.map133724526457360872 0
 122C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\optimizer-svgo\node_modules\svgo\dist\svgo.browser.js133724379040530528 0
 95C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\caniuse-lite\data\features\colr.js133724379041676474 0
 87C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\ordered-binary\.nyc_output133724379033428966 1
@@ -2421,7 +2421,7 @@
 120C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\glib\gpoll.h133117882010000000 0
 121C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\glib\gquark.h133117882010000000 0
 79C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\csso\cjs\utils.cjs133724379038320576 0
-72C:\Users\jean alves\Documents\GitHub\portifolio\dist\scripts\main.js.map133724510239471530 0
+72C:\Users\jean alves\Documents\GitHub\portifolio\dist\scripts\main.js.map133724526457370952 0
 99C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\utils\src\isDirectoryInside.js133724379039139001 0
 121C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\sharp\vendor\8.13.3\win32-x64\include\glib-2.0\glib\gqueue.h133117882010000000 0
 111C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\caniuse-lite\data\features\alternate-stylesheet.js133724379036865355 0
@@ -4177,7 +4177,7 @@
 118C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\runtime-js\src\helpers\browser\import-polyfill.js133724379036764984 0
 88C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\domelementtype\package.json133724379032419940 0
 83C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\domelementtype\lib\esm133724379033775470 1
-68C:\Users\jean alves\Documents\GitHub\portifolio\dist\styles\main.css133724510239521963 0
+68C:\Users\jean alves\Documents\GitHub\portifolio\dist\styles\main.css133724526342712580 0
 90C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\domelementtype\lib\index.d.ts133724379034156883 0
 133C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.darwin-x64.node133724379038400997 0
 88C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\domelementtype\lib\index.js133724379031360229 0
@@ -4580,6 +4580,7 @@
 95C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\node-resolver-core\LICENSE133724379029524634 0
 85C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\csso\cjs\clean\index.cjs133724379036835164 0
 92C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\caniuse-lite\data\regions\QA.js133724379048958623 0
+71C:\Users\jean alves\Documents\GitHub\portifolio\src\styles\_cookie.scss133724526351571126 0
 84C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\csso\cjs\clean\Rule.cjs133724379037769437 0
 85C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\csso\cjs\clean\utils.cjs133724379038190212 0
 73C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\css-what\lib133724379030997798 1
@@ -6078,7 +6079,7 @@
 98C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@swc\helpers\src\_define_property.mjs133724379046181248 0
 110C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\cache\node_modules\lmdb\dependencies\lmdb133724379031576607 1
 94C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@swc\helpers\src\_export_star.mjs133724379046206463 0
-68C:\Users\jean alves\Documents\GitHub\portifolio\dist\scripts\main.js133724510239405933 0
+68C:\Users\jean alves\Documents\GitHub\portifolio\dist\scripts\main.js133724526457345788 0
 93C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\.bin\download-lmdb-prebuilds.ps1133724379051605561 0
 90C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@swc\helpers\src\_extends.mjs133724379046216449 0
 86C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@swc\helpers\src\_get.mjs133724379046231688 0
@@ -6466,7 +6467,7 @@
 116C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\transformer-html\node_modules\srcset\index.d.ts133724379031978100 0
 113C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\transformer-html\node_modules\srcset\license133724379029574776 0
 118C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\transformer-html\node_modules\srcset\package.json133724379030811678 0
-63C:\Users\jean alves\Documents\GitHub\portifolio\dist\index.html133724510239753732 0
+63C:\Users\jean alves\Documents\GitHub\portifolio\dist\index.html133724526209333832 0
 115C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\transformer-html\node_modules\srcset\readme.md133724379031435441 0
 105C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\transformer-html\lib\dependencies.js133724379030273595 0
 108C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\@parcel\transformer-html\lib\HTMLTransformer.js133724379031807269 0
@@ -7406,8 +7407,8 @@
 74C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\.bin\svgo.ps1133724379051620663 0
 88C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\.bin\update-browserslist-db133724379051620663 0
 92C:\Users\jean alves\Documents\GitHub\portifolio\node_modules\.bin\update-browserslist-db.ps1133724379051620663 0
-59C:\Users\jean alves\Documents\GitHub\portifolio\dist\styles133724510239587743 1
-71C:\Users\jean alves\Documents\GitHub\portifolio\dist\fundo.a62a0635.png133724510239289877 0
-70C:\Users\jean alves\Documents\GitHub\portifolio\dist\index.f75de5e1.js133724510239360456 0
-75C:\Users\jean alves\Documents\GitHub\portifolio\dist\portifolio.59712999.js133724510239587743 0
-79C:\Users\jean alves\Documents\GitHub\portifolio\dist\portifolio.59712999.js.map133724510239617901 0
+59C:\Users\jean alves\Documents\GitHub\portifolio\dist\styles133724526342742762 1
+71C:\Users\jean alves\Documents\GitHub\portifolio\dist\fundo.a62a0635.png133724516929439269 0
+75C:\Users\jean alves\Documents\GitHub\portifolio\dist\portifolio.59712999.js133724518615912363 0
+79C:\Users\jean alves\Documents\GitHub\portifolio\dist\portifolio.59712999.js.map133724518615983008 0
+70C:\Users\jean alves\Documents\GitHub\portifolio\dist\index.f75de5e1.js133724526457340707 0

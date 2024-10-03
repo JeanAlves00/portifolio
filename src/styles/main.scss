@@ -1,5 +1,6 @@
-
+@use 'cookie';
 @use 'hero';
+@import 'variaveis';
 
 *{
     padding: 0;
@@ -9,6 +10,5 @@
 
 body {
     background-color: #11091a;
-    background-image: url(/src/images/fundo.png);
 }
 
