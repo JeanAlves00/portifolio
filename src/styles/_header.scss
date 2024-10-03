@@ -8,7 +8,7 @@ header {
 .nav-container {
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5); // Transparente
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem 2rem;
     transition: background-color 0.3s ease;
 }
@@ -27,7 +27,7 @@ header {
         font-size: 1.2rem;
   
         &:hover {
-        color: #ff6347; // Cor ao passar o mouse
+        color: #ff6347;
         }
     }
 }
@@ -59,11 +59,10 @@ header {
     }
   
     &:hover div {
-      background-color: #ff6347; // Cor ao passar o mouse
+      background-color: #ff6347;
     }
   }
   
-  // Responsividade para telas menores
   @media (max-width: 768px) {
     .nav-links {
       position: absolute;
@@ -88,14 +87,14 @@ header {
     }
   
     .burger {
-      display: flex; // Exibe o menu hamburguer somente em telas pequenas
-  
+      display: flex;
+
       &.active .line1, &.active .line2, &.active .line3 {
-        display: none; // Esconde as linhas quando o menu está ativo
+        display: none;
       }
   
       &.active .close-icon {
-        display: block; // Exibe o ícone de fechar
+        display: block; 
       }
     }
   }
