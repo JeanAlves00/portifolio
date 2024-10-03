@@ -1,41 +1,35 @@
+@import 'variaveis';
+
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 70vh;
     padding: 2rem;
-    background: linear-gradient(
-      rgba(163, 12, 233, 0.6), 
-      rgba(0, 0, 0, 0.6)
-    ), 
-    no-repeat center center;
+    background: linear-gradient(#0e1c24, #0b151b), no-repeat center center;
     background-size: contain;
-    color: #fff;
 
     &__container {
         text-align: left;
         max-width: 700px;
         background-color: rgba(0, 0, 0, 0.5);
         padding: 2rem;
-        border-radius: 10px;
+        border-radius: 30px;
 
         h4 {
             font-size: 1.2rem;
-            margin-bottom: 0.5rem;
             font-weight: 300;
-            color: #f0f0f0;
+            color: #f19601;
           }
       
           h2 {
             font-size: 2rem;
-            margin-bottom: 1rem;
             font-weight: 700;
             color: #e0e0e0;
           }
       
           h3 {
             font-size: 1.8rem;
-            margin-bottom: 1rem;
             font-weight: 500;
             color: #d0d0d0;
           }
@@ -46,7 +40,6 @@
             color: #c0c0c0;
       
             &:last-child {
-                margin-top: 1.5rem;
                 font-style: italic;
             }
         }
