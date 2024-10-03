@@ -1,0 +1,101 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 2rem;
+    background: linear-gradient(
+      rgba(163, 12, 233, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), 
+    no-repeat center center;
+    background-size: contain;
+    color: #fff;
+
+    &__container {
+        text-align: left;
+        max-width: 700px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 2rem;
+        border-radius: 10px;
+
+        h4 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 300;
+            color: #f0f0f0;
+          }
+      
+          h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            color: #e0e0e0;
+          }
+      
+          h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+            color: #d0d0d0;
+          }
+      
+          p {
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+            color: #c0c0c0;
+      
+            &:last-child {
+                margin-top: 1.5rem;
+                font-style: italic;
+            }
+        }
+    }
+
+    &__image {
+        margin-left: 3rem;
+
+        img {
+            border-radius: 20%;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border: 2px solid #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 1rem;
+        background-size: cover;
+        
+        &__container {
+            padding: 1.5rem;
+            text-align: center;
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+          
+            h3 {
+                font-size: 1.2rem;
+            }
+          
+            p {
+                font-size: 0.85rem;
+            }
+        }
+
+        &__image {
+            margin-left: 0;
+            margin-top: 2rem;
+        }
+    }
+}
