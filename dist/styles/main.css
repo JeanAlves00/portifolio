@@ -40,12 +40,13 @@
   transition: background-color .3s, transform .3s;
 }
 
-.cookie-banner button:hover {
+.cookie-banner button .cookie-banner button:hover {
   background-color: #f90;
   transform: scale(1.05);
 }
 
-.show {
+.cookie-banner button .show {
+  transition: bottom .5s;
   bottom: 0;
 }
 

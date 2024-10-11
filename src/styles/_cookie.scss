@@ -1,6 +1,6 @@
 .cookie-banner {
     position: fixed;
-    bottom: -100px; /* Inicia fora da tela */
+    bottom: -100px;
     left: 0;
     right: 0;
     background-color: #333;
@@ -11,9 +11,9 @@
     align-items: center;
     border-top: 2px solid orange;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 8px 8px 0 0; /* Bordas arredondadas no topo */
+    border-radius: 8px 8px 0 0; 
     z-index: 1000;
-    transition: bottom 0.5s ease; /* Animação ao aparecer */
+    transition: bottom 0.5s ease; 
 }
 
 .cookie-content {
@@ -37,15 +37,15 @@
     cursor: pointer;
     border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s, transform 0.3s; /* Animação ao passar o mouse */
-}
+    transition: background-color 0.3s, transform 0.3s; 
 
 .cookie-banner button:hover {
     background-color: #ff9900;
-    transform: scale(1.05); /* Leve aumento no botão ao passar o mouse */
+    transform: scale(1.05); 
 }
 
-/* Animação de entrada */
-.show {
-    bottom: 0; /* Move para a posição visível */
+    .show {
+    bottom: 0;
+    transition: bottom 0.5s ease;
+    }
 }
