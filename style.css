@@ -78,6 +78,27 @@ body {
   background-position: center;
 }
 
+.card-image-s1 {
+  background-image: url('/img/web.webp');
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-image-s2 {
+  background-image: url('/img/javascript-backend.webp');
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-image-s3 {
+  background-image: url('/img/consultoria.jpg');
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
 .card-content {
   padding: 1.5rem;
   text-align: center;
@@ -117,6 +138,7 @@ body {
   background-position: center;
   border-radius: 0.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-image: url('/img/perfil.jpg');
 }
 
 .skills-list {
