@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from "framer-motion";
 import { Briefcase, Calendar } from 'lucide-react';
 import { ScrollArea } from '../ui/scroll-area';
 
