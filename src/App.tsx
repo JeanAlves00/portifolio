@@ -1,4 +1,5 @@
-import Header from "./components/Header/Index"
+import GlobalShapes from "./components/Shapes/GlobalShapes"
+import Hero from "./profile/Hero/index"
 import GlobalStyles from "./styles/GlobalStyles"
 
 function App() {
@@ -6,7 +7,10 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <Header />
+      <GlobalShapes />
+      <>
+        <Hero />
+      </>
     </>
   )
 }

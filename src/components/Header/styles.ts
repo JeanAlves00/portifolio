@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import LogoControler from '../../assets/Svg/Logo.svg'
 
 export const Header = styled.header`
     display: flex;
