@@ -35,7 +35,8 @@ const Container = styled.div`
   inset: 0;
   z-index: 0;
   overflow: hidden;
-  pointer-events: none;
+  width: 100%;
+  height: 100%;
 `;
 
 const SquareEl = styled.div<{ $sq: Square }>`
@@ -48,13 +49,58 @@ const SquareEl = styled.div<{ $sq: Square }>`
   left: ${({ $sq }) => $sq.left}%;
   animation: ${({ $sq }) => $sq.animation} 6s infinite ease-in-out;
   filter: blur(2px);
+  pointer-events: none;
 `;
 
 const Content = styled.div`
   position: relative;
   z-index: 1;
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: auto;
+`;
+
+const BackgroundAnimation = styled.div`
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(45deg, #1a0033, #2d1b4e, #1a0033);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,..."); /* seu SVG pixel art aqui */
+    background-size: 100px;
+    opacity: 0.1;
+    animation: spin 30s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 `;
 
 interface GlobalShapesProps {
@@ -63,7 +109,9 @@ interface GlobalShapesProps {
 
 export default function GlobalShapes({ children }: GlobalShapesProps) {
   const squares = useMemo(() => {
-    const baseCount = Math.floor((window.innerWidth * window.innerHeight) / 18000);
+    const baseCount = Math.floor(
+      (window.innerWidth * window.innerHeight) / 18000,
+    );
     const colors = ["#00faff", "#ff00d4", "#8b5cf6", "#ffe600", "#00ff85"];
 
     const list: Square[] = [];
@@ -80,13 +128,12 @@ export default function GlobalShapes({ children }: GlobalShapesProps) {
   }, []);
 
   return (
-    <>
-      <Container>
-        {squares.map((sq, i) => (
-          <SquareEl key={i} $sq={sq} />
-        ))}
-      </Container>
+    <Container>
+      <BackgroundAnimation />
+      {squares.map((sq, i) => (
+        <SquareEl key={i} $sq={sq} />
+      ))}
       <Content>{children}</Content>
-    </>
+    </Container>
   );
 }
