@@ -7,7 +7,11 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
-    background-color: #1A0033;;
-  }`
+  }
+
+  body {
+    background-color: #1A0033;
+  }
+`
 
 export default GlobalStyles;
