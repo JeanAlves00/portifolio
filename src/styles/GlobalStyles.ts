@@ -16,6 +16,11 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     background-color: #1A0033;
+    background-image: url('https://i.redd.it/0k6meqvps4h91.gif');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     overflow: hidden;
   }
 

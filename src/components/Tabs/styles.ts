@@ -15,10 +15,10 @@ export const TabsContainer = styled.div`
   display: flex;
   justify-content: center;
   gap: 15px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-bottom: 2px solid rgba(167, 139, 250, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(167, 139, 250, 0.4);
   padding: 20px;
   border-radius: 20px 20px 0 0;
   margin-bottom: 0;
@@ -76,14 +76,14 @@ export const TabButton = styled.button<{ active: boolean }>`
 
   background: ${({ active }) =>
     active
-      ? "linear-gradient(135deg, rgba(167, 139, 250, 0.8) 0%, rgba(96, 165, 250, 0.8) 100%)"
-      : "rgba(255, 255, 255, 0.05)"};
+      ? "linear-gradient(135deg, rgba(167, 139, 250, 0.9) 0%, rgba(96, 165, 250, 0.9) 100%)"
+      : "rgba(255, 255, 255, 0.08)"};
   color: ${({ active }) => (active ? "#fff" : "#ccc")};
   border: 1px solid
     ${({ active }) =>
-      active ? "rgba(167, 139, 250, 0.8)" : "rgba(255, 255, 255, 0.1)"};
+      active ? "rgba(167, 139, 250, 0.9)" : "rgba(255, 255, 255, 0.15)"};
   box-shadow: ${({ active }) =>
-    active ? "0 4px 15px rgba(167, 139, 250, 0.3)" : "none"};
+    active ? "0 4px 15px rgba(167, 139, 250, 0.4)" : "none"};
 
   &::before {
     content: "";
@@ -112,13 +112,13 @@ export const TabButton = styled.button<{ active: boolean }>`
   &:hover {
     background: ${({ active }) =>
       active
-        ? "linear-gradient(135deg, rgba(167, 139, 250, 0.95) 0%, rgba(96, 165, 250, 0.95) 100%)"
-        : "rgba(255, 255, 255, 0.12)"};
-    border-color: rgba(167, 139, 250, 0.8);
+        ? "linear-gradient(135deg, rgba(167, 139, 250, 1) 0%, rgba(96, 165, 250, 1) 100%)"
+        : "rgba(255, 255, 255, 0.15)"};
+    border-color: rgba(167, 139, 250, 0.9);
     transform: translateY(-3px);
     box-shadow: 0 8px 25px
       ${({ active }) =>
-        active ? "rgba(167, 139, 250, 0.5)" : "rgba(96, 165, 250, 0.3)"};
+        active ? "rgba(167, 139, 250, 0.6)" : "rgba(96, 165, 250, 0.4)"};
   }
 
   &:active {
@@ -141,7 +141,7 @@ export const TabButton = styled.button<{ active: boolean }>`
       transform: translateY(-2px);
       box-shadow: 0 6px 15px
         ${({ active }) =>
-          active ? "rgba(167, 139, 250, 0.4)" : "rgba(96, 165, 250, 0.2)"};
+          active ? "rgba(167, 139, 250, 0.5)" : "rgba(96, 165, 250, 0.3)"};
     }
   }
 

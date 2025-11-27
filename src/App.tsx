@@ -13,9 +13,9 @@ const Container = styled.div`
   width: 95%;
   max-width: 1200px;
   height: 90vh;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
   display: flex;
@@ -32,6 +32,17 @@ const Container = styled.div`
       opacity: 1;
       transform: scale(1);
     }
+  }
+
+  @media (max-width: 768px) {
+    height: 85vh;
+    border-radius: 15px;
+  }
+
+  @media (max-width: 480px) {
+    height: 80vh;
+    width: 98%;
+    border-radius: 12px;
   }
 `;
 
@@ -65,6 +76,14 @@ const Content = styled.div`
     &:hover {
       background: rgba(167, 139, 250, 0.8);
     }
+  }
+
+  @media (max-width: 768px) {
+    padding: 30px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 20px;
   }
 `;
 
